@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+    <!--top page-->
+    <div id="top">
+        <img src="../picture/Group 9739.png" style="float:left; margin: 5px;">
+        <!--tag, contains two components-->
+        <div id="tag">
+            <ul>
+                <li style="color: #0f7dc1">Home</li>
+                <li>About</li>
+                <li>Featured</li>
+                <li>Contact</li>
+            </ul>
+            <style>
+                li
+                {
+                    display:inline;
+                    margin-left: 100px;
+                    line-height: 4;
+                    font-size: 20px;
+                }
+            </style>
+            <!--input for search-->
+            <div id="search" class="search">
+                <input value=" Saved Search" id="savedSearch" class="saveSearch">
+                <style>
+                    .saveSearch
+                    {
+                        position: absolute;
+                        font-size: medium;
+                        border-radius:30px;
+                        border: thin dashed darkgray;
+                        width:150px;
+                        height:35px;
+                        top: 35px;
+                        right: 255px;
+                    }
+                </style>
+                <button type="button" class="login">LOGIN</button>
+                <style>
+                    .login{
+                        position: absolute;
+                        background-color: royalblue;
+                        width: 100px;
+                        height: 50px;
+                        color: white;
+                        border: #ffffff;
+                        border-radius: 20px;
+                        font-size: medium;
+                        top: 30px;
+                        right: 150px;
+                    }
+                </style>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-body">
+        <div id="action-type" class="choice">
+            <ul>
+                <li class="buy"><b>Buy</b></li>
+                <li><b>Sell</b></li>
+                <li><b>Rent</b></li>
+            </ul>
+        </div>
+        <style>
+            .buy{
+                background-color: royalblue;
+                border-radius: 20px;
+                color: white;
+            }
+            .choice
+            {
+                position: absolute;
+                top: 550px;
+                left: -80px;
+                border-radius: 20px;
+                font-weight: bolder;
+                color: grey;
+                border: #ffffff;
+            }
+        </style>
+        <div>
+            <img src="../picture/pierre-chatel-innocenti-gxyeia7Syuk-unsplash.png" class="background">
+        </div>
+        <style>
+            .background{
+                position: absolute;
+                top: 100px;
+                right: 150px;
+            }
+        </style>
+        <div id="dream-text" class="body">
+            <body align="left">
+            Let's find<br>
+            <span style="font-size: 60px; color: #2c57c1; line-height: 150%">yours Dream..</span><br>
+            <span style="font-size: 15px; color: black; line-height: 50%">
+                Building award winning properties across<br>
+                London UK and the All world</span>
+            </body>
+        <style>
+            .body
+            {
+                position: absolute;
+                color: #0f7dc1;
+                font-family:"Times New Roman", Times, serif;
+                padding: 60px;
+                font-weight:900;
+                background-color: white;
+                font-size: 60px;
+                height:150px;
+                width: 400px;
+                border-radius:40px;
+                top: 200px;
+                left: -40px;
+                line-height: 0.15;
+                box-shadow: 0px 5px 10px lightgray;
+            }
+        </style>
+        </div>
+        <div id="filter" class="filter">
+            <div class="row">
+                <div class="col-1">
+                    <div>
+                        <label for="City/Street" style="font-size: 20px; color: grey">City/Street</label>
+                    </div>
+                    <input class="enter" type="text" id="City/Street" placeholder="Enter City"
+                           style="height: 30px; width:150px; font-size: 25px" required>
+                    <style>
+                        ::-webkit-input-placeholder{
+                            color: royalblue;
+                            font-weight: 900;
+                        }
+                        .enter:invalid {
+                            border: 2px dashed red;
+                        }
+                        .enter:valid {
+                            border: 2px solid white;
+                        }
+                    </style>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div>
+                        <label for="Apartment Type" style="font-size: 20px; color: grey">Apartment Type</label>
+                    </div>
+                    <select id="Apartment Type" name="Apartment Type"
+                            style="height: 30px; width:210px; font-size: 25px; color: royalblue; font-weight: 900; border: none ">
+                        <option value="Deluxe Portion">Deluxe Portion</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div>
+                        <label for="Price Range" style="font-size: 20px; color: grey">Price Range</label>
+                    </div>
+                    <select id="Price Range" name="Price Range"
+                            style="height: 30px; width:280px; font-size: 25px; color: royalblue; font-weight: 900; border: none">
+                        <option value="Min price - Max price">Min price - Max price</option>
+                    </select>
+                </div>
+            </div>
+            <style>
+                .col-1{
+                    position: absolute;
+                    top: 20px;
+                    left: 50px;
+                }
+                .col-2{
+                    position: absolute;
+                    top: 20px;
+                    left: 300px;
+                }
+                .col-3{
+                    position: absolute;
+                    top: 20px;
+                    left: 550px;
+                }
+            </style>
+            <button class="advanceFilter">+Advance Filter</button>
+            <button class="search_1">Search</button><br>
+            <style>
+                .advanceFilter
+                {
+                    position: absolute;
+                    font-size: 20px;
+                    color: royalblue;
+                    top: 40px;
+                    left: 900px;
+                    background-color: transparent;
+                    border: none;
+                }
+                .search_1{
+                    position: absolute;
+                    font-size: 20px;
+                    color: white;
+                    top: 28px;
+                    left: 1100px;
+                    background-color: royalblue;
+                    border-radius: 30px;
+                    width: 100px;
+                    height: 50px;
+                    border: none;
+                }
+            </style>
+        </div>
+        <style>
+            .filter{
+                position: absolute;
+                top: 650px;
+                width: 1250px;
+                height: 100px;
+                background-size: auto;
+                background-color: white;
+                border-radius: 10px;
+                box-shadow: 0px 5px 10px lightgray;
+            }
+        </style>
+    </div>
+    <!--second page: select your favorite apartment-->
+    <div id="favorite">
+        <div class="title2">
+            <body>
+            HI, What do you want to your<br><span class="dream">&nbsp &nbsp &nbsp &nbsp &nbsp Dream Apartment</span><br>
+            <span class="selectApt">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Select a Apartment type below to begins</span>
+            </body>
+        </div>
+        <style>
+            .title2{
+                position:absolute;
+                font-size: 40px;
+                top: 1100px;
+                left: 700px;
+                color: #23305a;
+                font-weight: 900;
+                font-family:"Times New Roman", Times, serif;
+            }
+            .dream{
+                color: #5f8ac1;
+            }
+            .selectApt{
+                color: grey;
+                font-size: 20px;
+                font-weight: 200;
+            }
+        </style>
+        <div class="continueChoose">
+            <label class="imagine1"><img src="../picture/delux2.png" style="height: 200px; width: auto">
+                <p style="position:relative; left: 85px">Deluxe Portion<input type="radio" name="favorite"></p>
+            </label>
+            <label class="imagine2"><img src="../picture/delux2.png" style="height: 200px; width: auto">
+                <p style="position:relative; left: 90px">Double Height<input type="radio" name="favorite"></p>
+            </label>
+            <label class="imagine3"><img src="../picture/delux2.png" style="height: 200px; width: auto">
+                <p style="position:relative; left: 95px">Penthouse<input type="radio" name="favorite"></p>
+            </label>
+            <label class="imagine4"><img src="../picture/delux2.png" style="height: 200px; width: auto">
+                <p style="position:relative; left: 100px">The Studio<input type="radio" name="favorite"></p>
+            </label>
+            <button style="position: absolute; top: 280px; left:600px; font-size: 15px; border-radius: 10px;
+            background-color: royalblue; width: 300px; height: 50px; border: none; color: white">Continue</button>
+            <style>
+                .imagine1{
+                    position: absolute;
+                }
+                .imagine2{
+                    position: absolute;
+                    left: 400px;
+                }
+                .imagine3{
+                    position: absolute;
+                    left: 800px;
+                }
+                .imagine4{
+                    position: absolute;
+                    left: 1200px;
+                }
+            </style>
+        </div>
+        <style>
+            .continueChoose{
+                position: absolute;
+                top: 1250px;
+                left: 200px;
+            }
+        </style>
+    </div>
+    <!--third page: show most popular apartment-->
+    <div id="house-list">
+        <h1 class="title3">Featured Apartment</h1>
+        <label style="position:absolute; top:1680px; left:570px; font-size: large; color: grey">
+            The Most frequently searched and mose popular apartment of the application will be in the list
+        </label>
+        <div id="house2" class="house2">
+            <img src="../picture/Mask%20Group%20-1.png">
+            <div style="font-size: small; color: grey">
+                Belmont Gardens, Chicago
+            </div>
+            <div style="color: #0f7dc1; font-size: 20px; font-weight: 900">$3,000</div>
+            <div style="font-weight: 900; font-size: 20px">Studio Apartment</div>
+            <div style="font-size: small; color: grey">Beautiful Huge 1 family House In Heart Of Westbury Newly<br>
+            Renovated With New Furniture</div>
+        </div>
+        <div id="house3" class="house3">
+            <img src="../picture/Mask%20Group%20-2.png">
+            <div style="font-size: small; color: grey">
+                Timber Yard, Birmingham City Centre, B5
+            </div>
+            <div style="color: #0f7dc1; font-size: 20px; font-weight: 900">$379,000</div>
+            <div style="font-weight: 900; font-size: 20px">Galliard Homes Apartment</div>
+            <div style="font-size: small; color: grey">This Fabulous Two Bedroom Duplex Apartment Will Be Close To<br>
+                Some Of The Best Local Haunts And Venues The City Has To Offer.</div>
+        </div>
+        <div id="house1" class="house1">
+            <img src="../picture/Mask%20Group%204.png">
+            <div style="font-size: small; color: grey">
+                Knightsbridge
+            </div>
+            <div style="color: #0f7dc1; font-size: 20px; font-weight: 900">$2,500</div>
+            <div style="font-weight: 900; font-size: 20px">Apartment London</div>
+            <div style="font-size: small; color: grey">Beautiful Huge 1 family House In Heart Of Westbury Newly<br>
+                Renovated With New Furniture</div>
+        </div>
+    </div>
+    <style>
+        .title3{
+            position:absolute;
+            font-size: 40px;
+            top: 1600px;
+            left: 770px;
+            color: #23305a;
+            font-weight: 900;
+            font-family:"Times New Roman", Times, serif;
+        }
+        .house1{
+            position:absolute;
+            left: 130px;
+            top: 1750px;
+        }
+        .house2{
+            position: absolute;
+            top: 1750px;
+            left: 730px;
+        }
+        .house3{
+            position: absolute;
+            top: 1750px;
+            left: 1330px;
+        }
+    </style>
+    <!--forth page: show apartment design-->
+    <div>
+        <h1 class="title4">Apartment Plans</h1>
+        <div class="list">
+            <ul>
+                <li>The Studio</li>
+                <li style="color: #0f7dc1">Deluxe Portion</li>
+                <li>Penthouse</li>
+                <li>Top Garden</li>
+                <li>Double Height</li>
+            </ul>
+        </div>
+        <div class="summary">
+            <div style="font-size: 25px; color: white; position: relative; top:30px; left:25px; font-weight: 900">Deluxe Portion</div>
+            <div class="text1">Boasting chic interiors, three private balconies and a remarkable terrace,</div>
+            <div class="text1">this two bedroom apartment will epitomise complete luxury. Not only will</div>
+            <div class="text1">residents benefit from a superb location in the heart of Shoreditch, but</div>
+            <div class="text1">they will also enjoy unrivalled facilities and a 24-hour bespoke concierge.</div>
+            <div class="area">Total Area ...................................................... 2800 Sq.Ft</div>
+            <div class="area">Bedroom ......................................................... 2800 Sq.Ft</div>
+            <div class="area">Bathroom ........................................................ 2800 Sq.Ft</div>
+            <div class="area">Smoking/ pets ............................................... 2800 Sq.Ft</div>
+            <div class="area">Lounge ............................................................ 2800 Sq.Ft</div>
+        </div>
+        <img src="../picture/Image 6.png" class="imgSimple">
+    </div>
+    <style>
+        .title4{
+            position:absolute;
+            font-size: 40px;
+            top: 2300px;
+            left: 800px;
+            color: #23305a;
+            font-weight: 900;
+            font-family:"Times New Roman", Times, serif;
+        }
+        .summary{
+            background-color: royalblue;
+            position: absolute;
+            left: 280px;
+            top: 2550px;
+            height: 450px;
+            width: 550px;
+        }
+        .text1{
+            position: relative;
+            line-height: 30px;
+            top:50px;
+            left:25px;
+            font-size: 14px;
+            color: white;
+        }
+        .area{
+            position: relative;
+            line-height: 40px;
+            top: 50px;
+            left:25px;
+            font-size: 14px;
+            color: white;
+        }
+        .list{
+            position:absolute;
+            top: 2400px;
+            left: 270px;
+        }
+        .imgSimple{
+            position:absolute;
+            top: 2500px;
+            right: 400px;
+        }
+    </style>
+    <!--last page: advertisement-->
+    <div class="adv">
+        <div style="color: #5f8ac1; font-size: 50px; line-height:70px; font-weight: 900; font-family:Times New Roman, Times, serif;
+        position:relative; top: 100px">Buy<br>
+            Dream Apartment<br>
+            In <span style="color: royalblue">Prime location</span></div>
+        <button style="color: white; background-color: #2c57c1; position: relative; top: 160px; left: 30px;
+         font-size: 20px; border: none; border-radius: 10px; height: 80px; width:300px">See All Apartment</button><br>
+    </div>
+    <div class="img">
+        <img src="../picture/THE-SELECT-TEN----Bedroom-Apartment---Wintergarden-(Floor-33-34).png"
+             style="height:800px; width:auto">
+    </div>
+    <div class="topImg">
+        <img src="../picture/delux2.png">
+
+    </div>
+    <style>
+        .adv{
+            position:absolute;
+            top: 3100px;
+            left: 200px;
+        }
+        .img{
+            position:absolute;
+            top: 3100px;
+            right: 200px;
+        }
+        .topImg{
+            position:absolute;
+            top: 3450px;
+            right: 800px;
+        }
+    </style>
+    <div class="bottomImg">
+        <img src="../picture/Path%202954.png">
+    </div>
+    <div class="end">
+        <img src="../picture/Group%209739.png">
+        <h2> Useful Links &nbsp Help?</h2>
+        <label>About &nbsp &nbsp &nbsp &nbsp &nbsp FAQ</label><br>
+        <label>Partners &nbsp &nbsp &nbsp Term & Condition </label><br>
+
+        <img class="tag2" src="../picture/Group%209740.png">
+        <img class="tag2" src="../picture/Group%209741.png">
+        <img class="tag2" src="../picture/Group%209742.png">
+        <img class="tag2" src="../picture/Group%209743.png">
+    </div>
+    <style>
+        .bottomImg{
+            position: absolute;
+            top: 3880px;
+        }
+        .end{
+            position:absolute;
+            top: 3900px;
+            left: 200px;
+            color: white;
+        }
+        .tag2{
+            position: relative;
+            top: 50px;
+        }
+    </style>
+
+</div>
+
+</body>
+</html>
