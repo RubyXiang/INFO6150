@@ -1,0 +1,16 @@
+.page-information p{
+    color: coral;
+}
+/* children p of  article-1 will get the style*/
+.page-information > p{
+    font-size: 20px;
+}
+/* apply to the following siblling */
+.page-information > h2+p{
+    /* add important and this style will be the first to apply */
+    font-size: 30px !important; 
+}
+
+.page-information >h2~div{
+    border: 1px solid cornflowerblue;
+}

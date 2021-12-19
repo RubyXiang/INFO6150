@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <title>Form Elements</title>
+        <style>
+            body{
+                padding:25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Contact Form</h1>
+        <form action="table.html" method="post">
+            <fieldset>
+                <label>First Name</label>
+                <input type="text" name="firstname" placeholder="Enter your first name">
+                <label>Lirst Name</label>
+                <input type="text" name="lastname" placeholder="Enter your last name">
+            </fieldset>
+            <fieldset>
+                <label>Male</label>
+                <input type="radio" name="gender" id="male" value="g">
+                <lable>Female</lable>
+                <input type="radio" name="gender" id="female" value="f">
+            </fieldset>
+            <fieldset>
+                <lable for="">DDB</lable>
+                <input type="data" name="dob" placeholder="Select a date"
+            </fieldset>
+            <fieldset>
+                <label for="">Program</label>
+                <select name="program">
+                    <option value="IS">Information Systems</option>
+                    <option value="CSE">Computer Systems</option>
+                </select>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

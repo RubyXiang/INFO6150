@@ -1,0 +1,17 @@
+{
+  "first_name": "David",
+  "last_name": "Baker",
+  "phone": "5687809",
+  "addresses": [
+    {
+      "street_name": "Main St",
+      "city": "Lexington",
+      "type": "Home"
+    },
+    {
+      "street_name": "Main St",
+      "city": "Waltham",
+      "type": "Office"
+    }
+  ]
+}

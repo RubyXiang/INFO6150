@@ -1,0 +1,22 @@
+/*css comments*/
+#title{
+    font-size: 20px;
+}
+.title{
+    color: brown;
+}
+p{
+    color: coral;
+}
+.title:hover{
+    background-color: cadetblue;
+}
+.title::first-letter{
+    background-color: thistle;
+}
+
+.container{
+    width: 350px;
+    height: 200px;
+    overflow: scroll;
+}

@@ -1,0 +1,39 @@
+li[name]{
+    font-size: 20px;
+}
+/* choose the specific value */
+li[name="fruit-apple"]{
+    color: coral;
+}
+
+/* choose all values begin with fruit*/
+li[name^="fruit"]{
+    margin: 10px;
+    border: 1px solid black;
+}
+/* p will also have the attributes */
+li[name^="fruit"],p{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+/* end with grapes */
+li[name$="grapes"]{
+    color: blueviolet;
+}
+
+li[name$="apple"]{
+    color: rgb(200, 20, 50);
+}
+
+/* apple should be sperated by space */
+li[name~="apple"]{
+    color: rgb(25, 120, 200);
+}
+
+/* contains */
+li[name*="orange"]{
+    color: rgb(205, 100, 35);
+}
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Embedded Elements
+        </title>
+        <style>
+            body{
+                padding:25px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Embedded Elements</h1>
+        <figure>
+            <figcaption>Media Query Image</figcaption>
+            <picture>
+                <source src="cat.webp" media="(min-width:1000px)">
+                <source src="cat.webp" media="(min-width:800px)">
+                <img src="dog.jpeg" alt="Dog image"
+            </picture>
+        </figure>
+        <figure>
+            <figcaption>Audio</figcaption>
+            <audio controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3">
+                <code>audio</code>element
+            </audio>
+        </figure>
+        <figure>
+            <figcaption>video</figcaption>
+            <video controls src="">
+                <code><video src=""></video></code>element
+            </audio>
+        </figure>
+    </body>
+</html>
