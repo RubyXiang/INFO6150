@@ -1,0 +1,28 @@
+{
+  "name": "lab-7-RubyXiang",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall2021/lab-7-RubyXiang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall2021/lab-7-RubyXiang/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall2021/lab-7-RubyXiang#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
