@@ -1,0 +1,23 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "assignment-4-RubyXiang created by GitHub Classroom",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.42.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall2021/assignment-4-RubyXiang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall2021/assignment-4-RubyXiang/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall2021/assignment-4-RubyXiang#readme"
+}
