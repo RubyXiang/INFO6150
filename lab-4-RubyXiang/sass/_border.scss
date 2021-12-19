@@ -1,0 +1,4 @@
+@mixin border-minix($value){
+  border:$value solid darkblue;
+  box-shadow: black;
+}
