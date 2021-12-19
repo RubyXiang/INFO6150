@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Todo subPage</title>
+<script defer src="index.js"></script><script defer src="second.js"></script><link href="index.css" rel="stylesheet"></head>
+<body>
+    <h1>Add Details</h1>
+    <div class="text-area">
+        <textarea id="item" type="text" class="item" placeholder="Type The Item"></textarea>
+        <textarea id="description" class="description" placeholder="Type The Description"></textarea>
+    </div>
+    <div>
+        <form>
+            <div class="form">
+                <lable for="date">Date:</lable><br>
+                <input id="date" type="datetime-local" min="2021-11-04T00:00">
+                <input id="done" type="hidden">
+            </div>
+        </form>
+    </div>
+    <div class="save">
+        <input id="saveButton" type="button" value="save">
+    </div>
+</body>
+</html>

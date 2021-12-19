@@ -1,0 +1,88 @@
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./scss/main.scss ***!
+  \*********************************************************************************************************/
+body {
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  box-shadow: 0px 5px 10px lightgray;
+}
+
+h1 {
+  float: left;
+  margin-left: 180px;
+}
+
+.add-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 550px;
+}
+
+.text-area {
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 40px;
+  background-color: #c2becb;
+  border-radius: 20px;
+  height: 150px;
+  width: 420px;
+}
+
+.item {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid darkgray;
+  height: 25px;
+}
+
+.description {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 20px;
+  width: 400px;
+  border-radius: 20px;
+  border: 1px solid darkgray;
+  height: 100px;
+  overflow-x: visible;
+  overflow-y: visible;
+}
+
+form {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 40px;
+  background-color: #c2becb;
+  border-radius: 20px;
+  width: 420px;
+  height: 60px;
+}
+
+.form {
+  float: left;
+  margin-left: 5px;
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+.save {
+  position: absolute;
+  margin-top: 570px;
+  margin-left: 230px;
+}
+
+ul {
+  position: absolute;
+  margin-top: 100px;
+  font-size: 25px;
+  margin-left: 40px;
+}
+
+ul li {
+  list-style-type: none;
+}
